@@ -1,8 +1,8 @@
-#### Initial setup guide
+### Initial setup guide
 
 This guide assumes a correctly configured Linux machine with a GPU. All the following actions should be performed in a terminal of your choosing.
 
-##### Step 1: `conda`
+#### Step 1: `conda`
 
 We will need an isolated environment, so let's check if we have `conda` installed:
 
@@ -26,7 +26,7 @@ conda init --all
 
 Now close and reopen the terminal application so that `conda` becomes available.
 
-##### Step 2: Creating environment
+#### Step 2: Creating environment
 
 Now let's create a python environment that we will work in:
 
@@ -42,7 +42,7 @@ conda activate reasoning_uq
 
 You should be able to see the name of the environment near your shell prompt. This way you can always see which environment you are currently working in.
 
-##### Step 3: Installing packages
+#### Step 3: Installing packages
 
 The main library that you will work with on this project is called `LM-Polygraph`. It's a collection of baseline methods for UQ in LLMs and an easy-to-run benchmark allowing you to compare how different UQ method fare against each other. Since we will need to modify the code of `LM-Polygraph` and possibly add new methods of uncertainty quantification, we will need to install it in _editable_ mode. 
 
